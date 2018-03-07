@@ -1,0 +1,139 @@
+*{
+    font-family: "Open Sans","OpenSans",sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    font-size: 0.9em;
+    padding-top: 15px;
+    height:20px;
+    padding-bottom: 15px;
+  }
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+.top-left{
+    margin: 0 0 0 20px;
+    position: absolute;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  /* HEADER */
+
+header{
+    background-image:  url("./images/city-scape.svg");
+    height: 450px;
+}
+.header-npm{
+    display: flex;
+  }
+
+.npm-logo{
+      margin: 20px;
+      height: 50px;
+      width: 125px;
+  }
+
+.search-header{
+    margin-top: 20px;
+    flex-grow: 2;
+    display:flex; 
+  }
+  .search-header div{
+      width: 100%;
+  }
+
+.search{
+      width: 100%;
+      height: 50px;
+      background-color: rgb(31, 82, 111);
+      border: 1px solid rgba(255,255,255,0.2);
+      font-size: 1em;
+      color:white;
+      padding: 10px;
+  }
+ .search-button{
+    border: 1px solid rgba(255,255,255,0.2);
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: rgb(31, 82, 111);
+ } 
+
+.signup-bear{
+    display:flex;
+    margin:20px;
+    color: white;   
+  }
+.signup-bear span{
+    padding-top: 12px;
+  }
+
+  .bear-logo{
+      height: 42px;
+      width: 42px;
+  }
+
+.build-amazing-things{
+      padding-left: 20%;
+      padding-right:50%;
+      color: white;   
+  }
+.build-amazing-things p{
+      padding-bottom: 20px;
+  }
+
+.sign-up{
+    padding: 10px;
+    background-color: rgb(240, 146, 51);
+    border-radius: 20px; 
+}
+
+/*Section 1*/
+
+.section-1{
+    background-color: rgb(39,53,71);
+    display: flex;   
+    justify-content:center;
+    padding: 10%  0 10% 0;
+}
+.collaboration-image{
+    height:350px;
+    width:550px;
+}
+.content-section-1{
+    padding-left: 20px;
+    color: white;
+}
+.content-section-1 h1{
+    width: 75%;
+}
+
+.content-section-1 ul{
+    padding-left: 4%;
+}
+.red-button{
+    padding: 10px;
+    background-color: rgb(203, 56, 55);
+    border-radius: 20px; 
+}

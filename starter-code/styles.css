@@ -1,9 +1,14 @@
-*{
-    font-family: "Open Sans","OpenSans",sans-serif;
-}
 
 body{
     margin:0;
+    font-size: 16px;
+    font-family: "Open Sans","OpenSans",sans-serif;
+}
+
+
+h1, h2, h3{
+    font-weight: 300;
+    font-size: 36px;
 }
 
 
@@ -104,9 +109,9 @@ header{
   }
 
 .sign-up{
-    padding: 10px;
     background-color: rgb(240, 146, 51);
     border-radius: 20px; 
+    padding: 10px 26px 10px 26px;
 }
 
 /*Section 1*/
@@ -115,7 +120,7 @@ header{
     background-color: rgb(39,53,71);
     display: flex;   
     justify-content:center;
-    padding: 10%  0 10% 0;
+    padding: 10%;
 }
 .collaboration-image{
     height:350px;
@@ -133,7 +138,84 @@ header{
     padding-left: 4%;
 }
 .red-button{
-    padding: 10px;
     background-color: rgb(203, 56, 55);
     border-radius: 20px; 
+    padding: 10px 26px 10px 26px;
+}
+
+/* Section 2*/
+
+.section-2{
+    background-image: url("./images/forklift.svg");
+    background-size: cover;
+    height: 400px;
+    padding: 60px 0 60px 0;
+    position: relative;
+}
+
+.content-section-2{
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 25%;
+    left: 25%;
+    width: 15%;
+}
+
+.blue-button{
+    background-color: rgb(49, 68, 88);
+    border-radius: 20px; 
+    padding: 10px 26px 10px 26px;
+}
+
+/* Section 3 */
+
+.section-3{
+    padding: 0 40px 0 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: white;
+}
+
+.content-section-3-1{
+    text-align: center;
+}
+.content-section-3-1 h1{
+    color:rgb(83,88,98);
+}
+.content-section-3-1 p{
+    color:rgb(135,145,156);
+}
+.content-section-3-2{
+    display: flex;
+    justify-content:center;
+}
+.content-section-3-2 p{
+    color:rgb(135,145,156);
+}
+
+.content-section-3-col-1{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    width:15%;
+}
+
+.content-section-3-col-2{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    width: 15%;
+}
+
+.content-section-3-col-3{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    width: 15%;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.link{
+    color:rgb(208,74,73);
 }

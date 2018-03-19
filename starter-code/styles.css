@@ -225,23 +225,36 @@ header{
 
 .section-4 {
     background-color: #34495E;
+    padding-top: 75px;
 }
 
 .content-section-4{
-    display: flex;
-     justify-content:center;
-    color:white;   
+    color:white; 
+    position: relative;  
+    height: 337px;
 }
 .section-4-text{
-    width: 15%;
+    width: 20%;
     padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 25%;
 }
 .section-4-image{
-    background-color: red;
-    /*background-image: url("./images/buildings-and-billboard.png");
-   */ width: 25%;
-    height: 25%;
+   background-image: url("./images/buildings-and-billboard.png");
+    width: 500px;
+    height: 360px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 25%;
+}
 
+.section-4-car{
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
 }
 .content-blue{
     background-color: #1A8BCB;
